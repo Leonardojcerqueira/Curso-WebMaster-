@@ -1,0 +1,529 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src: url('../Fonts/OpenSans-Light.ttf');
+}
+
+/*
+ Estilo para meu conteúdo do site
+*/
+html, body{
+	height: 100%;
+	font-family: "Open Sans";
+}
+
+form  *{
+	font-family: "Open Sans";
+}
+
+/*
+.text[type=text]{
+	background: green;
+}
+
+input[type=submit]{
+	background: blue;
+}
+*/
+/*
+.box{
+	width: 40%;
+	height: 300px;
+	color: gray;
+}
+
+.box p {
+	color: initial;
+	background-color: initial;
+}
+/*
+@media screen and (max-width: 480px){
+	.box{
+		height: auto;
+	}
+}
+*/
+/*TEM QUE SER IGUAL!
+
+ a[href= "https://www.google.com"]{
+ 	background-color: yellow;
+ }
+ [href= "https://www.google.com"]{
+ 	background-color: red;
+ }
+*/
+/*PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO
+
+a[attr ~="google"]{
+	background: blue;
+}
+*/
+
+/*ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
+a[attr *="google"]{
+	background: blue;
+}
+*/
+/*
+QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
+a[attr | = "google"]{
+	background-color: yellow;
+}
+*/
+
+/*
+QUANDO COMEÇAMOS COM A PALAVRA
+a[attr^= "goo"]{ 
+	 background-color: red;
+}
+*/
+
+/*
+QUANDO TERMINAMOS  COM A PALAVRA
+a[attr$="google"]{
+	background: yellow;
+}
+*/
+/*
+.table1{
+	width: 900px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table tr td{
+	background-color: rgb(200, 200, 200);
+	height: 300px;
+	vertical-align: bottom;
+	border: 3px solid black;
+}
+*/
+/*
+*
+.menu-fixed{
+
+    position: static; fixed, absolute, relative ;
+    left: 30px;
+    top: 70px;
+    bottom:0 ;
+    right: 0 ;
+	width: 300px;
+	height: 200px;
+	background: #069;
+}
+
+.box{
+	width: 400px;
+	height: 500px;
+	background-color: green;
+}
+
+.box p{
+	width: 400px;
+}
+*
+*/
+/*
+.bg{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+
+	background-color: red;
+	background-image: url('../imagens/danki_bg.jpg');
+	background-size: cover;
+	background-position:/* 90px 90px;
+	background-repeat: no-repeat no-repeat, repeat-x, repeat.y;	
+}
+*/
+/*
+.bg{
+	<div class ="item">
+		<img src="imagens/icon_responsive.png">
+		<p>Aqui é o meu texto</p>
+	</div><!--item-->
+	width: 100%;
+	margin: 0 auto;
+	height: 30vw;
+	background-image: url('../imagens/sunset.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: red;
+	background-repeat: no-repeat;
+	/*
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	*/
+
+
+/*
+.box{
+	width: 100%;
+	margin: 80px auto;
+	text-align: center;
+	background-color: rgb(200, 200,200);
+}
+
+.item{
+	width: 100%;
+    margin-right: -4px;
+	display: inline-block;
+}
+
+.item img{
+	width:16% ;
+}
+
+.item p {
+	background-color: purple;
+	display: inline-block;
+	text-align: left;
+}
+
+.last{
+	margin-right: 0;
+}
+*/
+/*
+.teste, .teste1, .teste2{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 30px ;
+	/*
+	background-color: #ccc;
+	*/
+}
+/*
+.teste1{
+	background: rgb(98, 98, 98);
+}
+
+.teste2{
+	background-color: rgb(50,50,50);
+}
+
+/*
+.teste:hover{
+	height: 900px;
+	background-color: blue;
+}
+
+.teste:hover , .teste1, .teste2{
+	vertical-align: top;
+}
+*/
+/* Active serve para quando estamos com o mous pressionado em cima do nosso elemento
+*/
+/*
+.teste:active{
+background-color: black
+}
+*/
+/*
+Focus serve para quando clicamos e focamos o nosso elemento do formulario
+
+textaera, input
+
+.teste:focus{
+	background-color: red;
+}
+
+.textarea1{
+	display: block;
+	width: 600px;
+	height: 400px ;
+}
+*/
+/*
+.link1:visited{
+	color: red;
+}
+
+
+.link1:link {
+	color: orange;
+}
+*/
+/*
+ul {
+  list-style-position: inside;
+}
+*/
+
+/*De acordo com  o tipo do elemento /*
+/*
+ul li:nth-of-type(2){
+	color: red;
+}
+*/
+
+/* De acordo com os filhos*/
+/*
+ul span:nth-child(6){
+   color: red;
+}
+*/
+
+/*
+.box{
+	width: 100%;
+}
+
+.box > div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background: red;
+	border:1px solid black;
+}
+*/
+/*
+p.p:after{
+	content:' Guilherme ';
+	background: red;
+	margin-left: -19px;
+}
+
+.p:before{
+	content: 'Guilherme ';
+}
+*/
+/*
+p:empty{
+	width: 200px;
+	height: 200px;
+background: orange;
+}
+*/
+
+/* Negação! Aplique o estilo para todas as divs que NÃO tenha a classe ONE.
+.box div:not(.one){
+	background:  gold;
+}
+*
+/*
+.box div:last-child p{
+	color: rgba(255, 255, 255, 1.0) ;
+}
+*/
+
+/*
+Pegamos o último elemento do mesmo tipo
+.box div:last-of-type, .box p:last-of-type{
+	background: green;
+}
+*/
+/*s
+.parent{
+	background: #069;
+	width: 100%;
+	padding: 90px 0;
+	text-align: center;
+}
+
+.item{
+	display: inline-block ;
+	width: 300px;
+	height: 300px;
+	background: green;
+	margin: 20px 0; 
+}
+
+Fórmulas: Estamos dizendo que a cada 3 elementos aplique o estilo. incluindo o 3.
+
+.parent div:nth-of-type(3n +1) div.item{
+	background: red;
+}
+*/
+/*
+.parent div:first-child div.item{
+	background: purple ;
+}
+*/
+/*
+.parent p:first-child{
+	color: orange;
+}
+
+.parent p:first-of-type{
+	color: orange;
+}
+*/
+/*
+form{
+	width: 96%;
+	max-width: 600px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+form fieldset{	
+	padding: 20px 40px;
+	border: 1px solid #ccc;
+}
+
+form legend{
+text-align: left;
+font-size: 17px;
+color: rgb(130, 130, 130);
+}
+
+form input[type=text]{
+	font-family: tahoma;
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	border: 1px solid #ccc;
+}
+
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+	outline: 0;	
+}
+
+form select{
+	font-family: tahoma;
+	color: rgb(100, 100, 100);
+	width: calc(80% + 26px);
+	margin-top: 30px;
+	padding: 10px 13px; 
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+/*
+form select option[disabled]{
+	color:  orange;
+}
+ */
+ /*
+form select option:nth-of-type(3){
+	color: red;
+}
+*/
+/*
+form h2 {
+	margin-top: 20px ;
+	color: rgb(100, 100, 100);
+}
+
+.input{
+	display: inline-block;
+	text-align: left;
+	margin-top: 25px;
+}
+
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130, 130, 130);
+}
+
+form textarea{
+	font-family: tahoma;
+	border: 1px solid #ccc;
+    margin-top: 30px;
+	width: 80%;
+	height: 140px;
+	padding: 10px 13px;
+	resize: none;
+}
+
+form input[type=submit]{
+	margin-top: 30px;
+	border: 0;
+	width:140px ;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 2px solid rgb(130, 130, 130) ;
+	color: white;
+	background: rgb(140, 140, 140);
+}
+*/
+/*
+input[type=file]{
+	display: none;
+}
+
+
+label{
+	display: inline-block;
+	margin: 20px auto;
+	cursor: pointer;
+	font-smooth: 17px;
+	width: 220px;
+	height: 40px;
+	background: #ccc;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+*/
+/*
+form{
+	text-align: center;
+	background: #ccc;
+	padding: 30px 0;
+}
+*/
+/*
+form select{
+	width:220px;
+	height: 30px;
+	border: 0;
+	padding-left:10px ;
+	background-image:url('../imagens/sprite.png') ;
+	background-size:10px 20px ;
+	background-repeat: no-repeat;
+	background-position: 96% 8px ;
+	appearance: none;
+}
+*/
+/*
+input[type=checkbox]{
+	display: none;
+}
+
+label{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: green;
+}
+
+input[type=checkbox]:checked + label{
+	background: red;
+	width: 50px;
+}
+*/
+/*
+Importando  do proprio diretório.
+*/
+
+/*
+h2{
+	font-weight: 700;
+	font-family: "Minha Fonte";
+}
+*/
+/*
+Quando utilizamos o important o nível de especificação deixa de existir.
+Quando  mais de 1 estão utilizando o important então  o nível de especificação  volta a contar. 
+
+.box p{
+	font-family: "Open Sans" !important;
+}
+
+.text{
+	font-family: tahoma  !important;
+}
+*/

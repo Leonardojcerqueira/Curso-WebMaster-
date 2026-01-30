@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+ Estilo para meu conteúdo do site
+*/
+html, body{
+	height: 100%;
+
+/*	
+.center{
+	box-sizing: ;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+/*
+.artigo{
+	box-sizing: border-box;
+    border-left-style: dotted;
+    border-width: 3px;
+    border-color: rgb(255, 0, 0);
+    border-bottom: 3px dotted rgb(255, 0, 0);
+	vertical-align: top;
+	display: inline-block;
+	margin-right: -4px;
+	margin-top: 30px;
+	width: 640px;
+}
+*/
+/*
+.artigo{
+	outline: 50px solid blue;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: -4px;
+	margin-top: 30px;
+	width: 640px;
+}
+*/
+/*
+p{
+	display: inline-block ;
+	width:30px ;
+	height: 300px;
+	margin: -4px;
+	background: red;
+}
+*/
+	/*
+	.clear{
+		clear: both;
+	}
+
+.pai{
+	width: 1280px;
+	padding: 20px 0;
+	margin: 20px auto;
+	background: blue;
+}	
+
+.child{
+	box-sizing: border-box;
+	width: 640px;
+	height: 300px;
+	background: red;
+	float: right;
+	text-align: center;
+	font-size: 40px;
+	padding: 50px 0;
+	color:white;
+	border: 1px solid black;
+}
+*/
+
+	.box, .box2{
+		width: 300px;
+		margin:0 auto;
+		background: gray;
+		/*
+		overflow-x: hidden;
+		overflow-y: hidden;
+		*/
+	}
+
+	.box p , .box2 p{
+		width: 100%;
+	}
+
+.box2{
+	background: red;
+	margin-top:20px ;
+	display: block;
+}
