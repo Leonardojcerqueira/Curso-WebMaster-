@@ -1,0 +1,21 @@
+header.principal{
+	width: 100%;
+	padding: 20px 0;
+	background-color: #ccc;
+}
+
+header.principal{
+    text-align: center;
+}
+
+header.principal > nav > ul{
+    list-style-type: none;
+}
+
+header.principal > nav > ul > li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+
+
