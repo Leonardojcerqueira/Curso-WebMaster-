@@ -23,7 +23,7 @@
                 <li><a href="index.html" style="color: #EB2D2D">Home</a></li>
                 <li><a href="Venda.html">Venda</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a goto="contato" href="">Contato</a></li>
             </ul>
         </nav><!--desktop-->
 
@@ -32,7 +32,7 @@
                 <li><a href="index.html" style="color: #EB2D2D">Home</a></li>
                 <li><a href="Venda.html">Venda</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a goto="contato" href="">Contato</a></li>
             </ul>
         </nav><!--mobile-->
         <div class="clear"></div>
@@ -109,10 +109,11 @@
                 me buscou no aeroporto e garantiu toda  comodidade e 
                 conforto no almoço, no tranfer, na visita ao veículo 
                 e durante o test-drive"</p>
+                             <p>"Outro depoimento"</p>
             <div class="navigation">
                 <div class="arrows">
-                    <img src="imagens/arrow-left.png">
-                    <img src="imagens/arrow-right.png">
+                    <img prev src="imagens/arrow-left.png">
+                    <img next src="imagens/arrow-right.png">
                 </div><!--arrows-->
                 <div class="nome-depoimento">João da Silva</div>
             </div><!--navigation-->
@@ -120,7 +121,7 @@
         </div><!--half2-->
     </section><!--servicos-descricao-->
 
-    <section class="contato">
+    <section id="contato" class="contato">
     <div class="line-titulo">
         <div class="ln1"></div>
         <h2>Contato</h2>
@@ -165,6 +166,8 @@
         </div><!--Container-->
     </footer>
 
+     <script src="js/jquery.js"></script>
+     <script  src="js/functions.js"></script>
     
 </body>
 </html>

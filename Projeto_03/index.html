@@ -20,18 +20,18 @@ rel="stylesheet">
         <nav class="desktop-menu">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
 
         <nav class="mobile-menu">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+             <li><a href="">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>>
             </ul>
         </nav>
 
@@ -49,7 +49,7 @@ rel="stylesheet">
         </div><!--Container-->
     </header>
 
-    <section class="sessao1">
+    <section id="servicos" class="sessao1">
         <div class="container">
             <div class="texto-sessao1">
                 <h2>Desenvolvemos Sistemas Únicos</h2>
@@ -67,7 +67,7 @@ rel="stylesheet">
         <div class="clear"></div>
     </section><!--sessao1-->
 
-    <section class="sessao2">
+    <section id="sobre" class="sessao2">
        <div class="container">
          <h2>Desenvolvido de pessoas para pessoas</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -94,6 +94,8 @@ rel="stylesheet">
         </div><!--part1-->
 
         <div class="part2">
+            <div class="scrollEquipe">
+            <div class="scroll-wraper">
             <div class="sobre-autor">
                 <div class="titulo-autor">
                     <div class="wraper-titulo-autor">
@@ -109,16 +111,47 @@ rel="stylesheet">
             consectetur adipiscing elit.</p>
             </div><!--texto-autor-->
             </div><!--sobre-autor-->
+
+            <div class="sobre-autor">
+                <div class="titulo-autor">
+                <div class="wraper-titulo-autor">
+                <h2>Leonardo Cerqueira</h2>
+                <p>Co-Founder / Desenvolvedor</p>
+                </div><!--wraper-titulo-autor-->
+                <div class="img-autor"></div>
+            </div><!--titulo-autor-->
+            <div class="texto-autor">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Proin ornare vulputate orci rutrum dignissim.
+            consectetur adipiscing elit.rci rutrum dignissim.
+            consectetur adipiscing elit.</p>
+            </div><!--texto-autor-->
+            </div><!--sobre-autor-->
+
+                <div class="sobre-autor">
+                <div class="titulo-autor">
+                <div class="wraper-titulo-autor">
+                <h2>Leonardo Cerqueira</h2>
+                <p>Co-Founder / Desenvolvedor</p>
+                </div><!--wraper-titulo-autor-->
+                <div class="img-autor"></div>
+            </div><!--titulo-autor-->
+            <div class="texto-autor">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Proin ornare vulputate orci rutrum dignissim.
+            consectetur adipiscing elit.rci rutrum dignissim.
+            consectetur adipiscing elit.</p>
+            </div><!--texto-autor-->
+            </div><!--sobre-autor-->
+            </div><!--scroll-wraper-->
+            </div><!--scrollEquipe-->
             <div class="slider-bullets">
-                <span style="background-color:rgb(170, 170, 170);"></span>
-                <span></span>
-                <span></span>
             </div><!--slider-bullets-->
         </div><!--part2-->  
         <div class="clear"></div>  
     </section><!--sessao3-->
 
-    <section class="sessao4">
+    <section id="contato" class="sessao4">
         <div class="container">
            <div class="form">
               <h2>Entre em contato</h2>
@@ -156,7 +189,11 @@ rel="stylesheet">
     </footer>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3by2ZO2WEi8bH0hzju8Tek-j6xliUHRE"></script>
+    <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+    <script src="js/menu_responsivo.js"></script>
+    <script src="js/menuScroll.js"></script>
+    <script src="js/sliderEquipe.js"></script>
     
 </body>
 </html>

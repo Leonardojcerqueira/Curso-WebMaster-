@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugin Jquery</title>
+</head>
+<body>
+    <p>Olá mundo</p>
+    <span>Olá mundo!</span>
+
+
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="aplicarCor.jquery.js"></script>
+    <script>
+        $(function(){
+
+          $('p,span').aplicarCor({
+          color: 'green',
+          backgroundColor: 'red'
+          });
+        })
+    </script>
+</body>
+</html>

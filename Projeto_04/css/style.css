@@ -53,6 +53,7 @@ nav.menu-mobile ul{
 }
 
 nav.menu-mobile ul li{
+    font-size: 12px;
     text-transform: uppercase;
 }
 
