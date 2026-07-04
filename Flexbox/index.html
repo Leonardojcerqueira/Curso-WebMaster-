@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="framework.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Flexbox Layout</title>
+</head>
+<body>
+    <section class="container">
+        <header class="gold topo-site">
+        <div class="flex">         
+          <div class="w50 left text-white logo" >LogoMarca</div>
+          <div class="w50 right">
+            <ul>
+                <li><a class="text-white" href="">Home</a></li>
+                <li><a class="text-white"  href="">Sobre</a></li>
+                <li><a class="text-white"  href="">Contato</a></li>
+            </ul>
+          </div>
+        </div><!--flex-->
+        </header>
+    </section><!--Container-->
+
+    <section class="container light-blue">
+        <div class="flex">
+        <div class="w100 center slider">
+            <p>Meu Texto para um Slider!</p> 
+        </div>
+        </div>
+    </section>
+    <section class="container promo">
+       <div class="flex">
+        <div class="w33 center order2">
+         <h2>Titulo 1</h2>
+         <p>Aqui vai a descrição</p>
+        </div>
+
+        <div class="w33 center order1">
+         <h2>Titulo 2 </h2>
+         <p>Aqui vai a descrição</p>
+        </div>
+
+        <div class="w33 center order3">
+         <h2>Titulo 3</h2>
+         <p>Aqui vai a descrição</p>          
+        </div>
+        <br />
+       </div>
+    </section>
+</body>
+</html>
