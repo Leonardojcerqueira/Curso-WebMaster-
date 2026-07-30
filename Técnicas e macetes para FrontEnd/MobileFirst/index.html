@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First</title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h2{
+        background: red;
+      }
+      .center{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 2%;
+      }
+      .clear{
+        clear: both;
+      }
+      .w33{
+        width: 100%;
+        float: left;
+        padding: 0 10px;
+      }
+
+    @media screen and (min-width: 768px){
+        .w33{
+        width: 50%;
+        text-align: center;
+      }        
+    }
+    
+    @media screen and (min-width: 1024px){
+        .w33{
+        width: 33.3%;
+        text-align: center;
+      }        
+    }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="w33">
+            <h2>Olá Mundo</h2>
+        </div>
+        <div class="w33">
+            <h2>Olá Mundo</h2>
+        </div>
+        <div class="w33">
+            <h2>Olá Mundo</h2>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    
+</body>
+</html>

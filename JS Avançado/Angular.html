@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular JS</title>
+</head>
+<body>
+   <!--
+<p><a href="#/!">Main</a></p>
+    <a href="#!red">Red</a>
+    <a href="#!carrinho">carrinho</a>
+
+
+    <div ng-view></div>
+   
+    <div ng-app="myApp" ng-controller="myCtrl">
+    <div ng-bind-html="resposta"></div> 
+    </div>
+    -->
+
+<div ng-app="myShoppingList" ng-controller="myCtrl">
+
+  <ul>
+    <li ng-repeat="x in produtos">
+      {{x}}
+      <span ng-click="removeItem($index)">&times;</span>
+    </li>
+  </ul>
+  <input ng-model="item">
+  <button ng-click="addItem()">Adicionar no carrinho</button>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular-route.js"></script>
+
+<script src="app.js">
+
+/*
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http, $sce) {
+
+  $http({
+    method : "GET",
+      url : "ajax.html"
+  }).then(function mySuccess(response) {
+    $scope.resposta = $sce.trustAsHtml(response.data);
+  }, function myError(response) {
+    $scope.myWelcome = response.statusText;
+  });
+});
+
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+  $routeProvider
+  .when("/", {
+    templateUrl : "ajax.html"
+  })
+  .when("/red", {
+    templateUrl : "red.html"
+  })
+  .when("/carrinho", {
+    templateUrl : "carrinho.html"
+  })
+
+});
+*/
+
+</script>
+</body>
+</html>

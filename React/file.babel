@@ -1,0 +1,22 @@
+       var container = ReactDOM.createRoot(document.getElementById("main"));
+
+      class Box extends React.Component{
+
+       render(){        
+              return <h2>{this.props.children }</h2> 
+      }
+      }
+      class Formulario extends React.Component{
+       renderMyApp(){
+             return (<div><input type="text"/><input onClick={this.handleClick} type="submit"/></div>)
+       }
+       handleClick(){
+              $('body').append('<div style="width:580px;height: 508px;Background:red;"></div>')
+              alert("Clicado");
+       }
+       render(){
+          return this.renderMyApp();
+       }
+      }
+
+       container.render(<div class="principal-react"><Formulario /><Box>Algum texto aleatório</Box><Box nome="João" sobrenome="Grillo"/><Box nome="Guilherme"/><Box nome="Felipe" /></div>);

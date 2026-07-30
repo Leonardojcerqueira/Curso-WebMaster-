@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="aos.css">
+    <style type="text/css">
+     *{
+        margin: 0;
+        padding: 0;
+     }
+     p{
+        height: 1700px;
+     }
+    .aos{
+        width: 300px;
+        height: 300px;
+        background: red;
+     }
+
+    </style>
+</head>
+<body>
+    <!--
+    <div  class="teste">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.12/push.min.js"></script>
+<script>
+    if(Push.Permission.get() != 'granted'){
+        Push.Permission.request();
+    }
+if(Push.Permission.get() == "granted"){
+Push.create("Olá da Danki Code!", {
+    body: "Esta é minha notificação",
+    icon: "icon.png",
+    timeout: 2000,
+    onClick: function () {
+        window.location.href = "https://dankicode.com";
+        this.close();
+    }
+});
+
+</script>
+
+<script>
+ 
+        window.onload = function(){
+         if(typeof(Storage) !== "undefined") {
+            alert("O navegador é compátivel com storage");
+            initialize();
+         } else{
+           alert("Atualize seu navegador...");
+         }
+
+         function initialize(){
+            if(sessionStorage.getItem("nome") !== null) {
+              alert("Olá, " + sessionStorage.nome + ", Seja bem-vindo(a) de volta :)");
+            }else{
+                alert('Olá! Essa é sua primeira visita no nossso site :)');
+                sessionStorage.nome = "Gulherme";
+            }
+         }
+
+          //Documento carregado.
+          var el = document.getElementById('main-text');
+          el.innerHTML = el.innerHTML + "Guilherme";
+
+          el.style.background = "green";
+          el.style.marginLeft = "20px";
+          el.style.border = "3px solid red"
+
+          //var el2 = document.querySelector('p');
+
+         // el2.style.color = "red";
+
+         var elementos = document.querySelectorAll('p');
+
+         for(var i = 0; i < elementos.length; i++){
+            elementos[i].style.background = "gold";
+         }
+
+         function displayMessage(){
+            alert('Hey');
+         }
+       
+         var el = document.querySelector('.teste');
+         el.innerHTML = '<p onclick="displayMessage()">Olá mundo!</p>';
+
+        }
+    </script>
+
+    <script>
+        //var,let e const
+        const nome ="Guilherme"
+        var idade = 24;
+        printTela()
+        function printTela() {
+            console.log(idade)
+        }
+        if (true){
+            let nome2 ="João";
+            
+        }
+        console.log(nome2);
+    </script>
+
+    <script>
+        var pessoa1 = new pessoa ('Guilherme','19',function(){
+            alert('Hey yo!');
+        });
+
+        var pessoa2 = new pessoa('Felipe','30','Texto');
+
+        pessoa2.func();
+    
+    
+        function pessoa(nome,idade,callback){
+            this.nome =nome;
+            this.idade = idade;
+            this.callback = callback;
+
+            this.func = function(){
+                alert(nome);
+            }
+        }
+    </script>
+    <script>
+        var arr = ['1','2','3'];
+        var obj = {'carro':'opala','ano':'1998'};
+
+        //Looping normal no array.
+        for(var i = 0; i < arr.length; i++){
+            console.log(arr[i]);
+        }
+
+        //for each para objetos 
+        for(var n in obj){
+            console.log(n);
+            console.log(obj[n]);
+        }
+        </script>
+     -->
+        <div class="aos" data-aos="zoom-in" data-aos-duration="3000"></div>
+        <script src="aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        
+
+</body>
+</html>
